@@ -1,0 +1,16 @@
+// My age as a variable
+const myAge = 22;
+// first 2 years of a dogs live count as 10.5 years
+var earlyYears = 2;
+earlyYears *= 10.5;
+// Since we already accounted for the first to years, subtract 2 to get lateryears
+let = laterYears = myAge - 2;
+laterYears *= 4;
+console.log(earlyYears);
+console.log(laterYears);
+// add years together
+let myAgeInDogYears = earlyYears + laterYears;
+let myName = "Lathan".toLowerCase();
+
+// I am having problems with this console.log function. The console.log function is printing exactly ${myName} ${myAge} ${myAgeInDogYears} instead of the values assigned to the variables.
+console.log("My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.");
