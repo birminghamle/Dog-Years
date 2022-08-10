@@ -12,5 +12,4 @@ console.log(laterYears);
 let myAgeInDogYears = earlyYears + laterYears;
 let myName = "Lathan".toLowerCase();
 
-// I am having problems with this console.log function. The console.log function is printing exactly ${myName} ${myAge} ${myAgeInDogYears} instead of the values assigned to the variables.
-console.log("My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.");
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
